@@ -1,0 +1,15 @@
+[theme]
+primaryColor = "#00f2ea"  # TikTok cyan
+backgroundColor = "#0e1117"  # Dark background
+secondaryBackgroundColor = "#1a1b1e"  # Slightly lighter dark
+textColor = "#fafafa"  # Light text
+
+[server]
+enableXsrfProtection = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = true

@@ -1,0 +1,241 @@
+body {
+  background: linear-gradient(135deg, #0a1628 0%, #1a2b43 100%) !important;
+  color: #e2e8f0 !important;
+}
+.stApp {
+  background: linear-gradient(135deg, #0a1628 0%, #1a2b43 100%) !important;
+}
+.stDataFrame,
+.stTable {
+  background: rgba(26, 32, 44, 0.7) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(99, 179, 237, 0.1) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.css-1d391kg,
+.css-1v0mbdj,
+.css-1cpxqw2,
+.css-1offfwp,
+.css-1lcbmhc {
+  background: transparent !important;
+}
+.stSelectbox > div > div {
+  background: #1a2233 !important;
+  color: #e0e3e7 !important;
+  border-radius: 8px !important;
+  border: 1px solid #22304a !important;
+}
+.stSelectbox label {
+  color: #e0e3e7 !important;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e2e8f0 !important;
+  text-shadow: 0 0 10px rgba(99, 179, 237, 0.3) !important;
+}
+/* Custom scrollbar for dark mode */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #1a2b43;
+}
+::-webkit-scrollbar-thumb {
+  background: #4299e1;
+  border-radius: 8px;
+}
+/* Sidebar dark mode with semi-transparent white overlay */
+section[data-testid="stSidebar"] {
+  background: rgba(
+    26,
+    32,
+    44,
+    0.7
+  ) !important; /* 10% white, mostly transparent */
+  backdrop-filter: blur(10px) !important;
+  color: #e0e3e7 !important;
+  border-right: 1px solid rgba(99, 179, 237, 0.1) !important;
+  box-shadow: 2px 0 24px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Sidebar text color and radio/label tweaks for dark mode */
+section[data-testid="stSidebar"] .css-1v0mbdj, /* sidebar content */
+section[data-testid="stSidebar"] .css-1cpxqw2, /* sidebar radio */
+section[data-testid="stSidebar"] label {
+  color: #e0e3e7 !important;
+}
+
+section[data-testid="stSidebar"] .stRadio > div > div {
+  background: rgba(24, 28, 38, 0.85) !important;
+  border-radius: 8px !important;
+  border: 1px solid #22304a !important;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] h4,
+section[data-testid="stSidebar"] h5,
+section[data-testid="stSidebar"] h6 {
+  color: #e0e3e7 !important;
+}
+
+/* Buttons and interactive elements */
+.stButton > button {
+  background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 0.6em 1.2em !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+.stButton > button:hover {
+  box-shadow: 0 0 15px rgba(66, 153, 225, 0.4) !important;
+  transform: translateY(-2px) !important;
+}
+
+.stMarkdown {
+  color: #e2e8f0 !important;
+  font-size: 1.1em !important;
+  line-height: 1.6 !important;
+}
+
+/* Table headers and cells */
+.dataframe th {
+  background: rgba(66, 153, 225, 0.1) !important;
+  color: #4299e1 !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid rgba(99, 179, 237, 0.2) !important;
+  text-align: center !important;
+}
+
+.dataframe td {
+  color: #e2e8f0 !important;
+  border-bottom: 1px solid rgba(99, 179, 237, 0.1) !important;
+  text-align: center !important;
+}
+
+/* Plots and visualizations */
+.js-plotly-plot {
+  background: white !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(99, 179, 237, 0.1) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* Enhanced Plotly chart styling */
+.js-plotly-plot .plotly,
+.js-plotly-plot .main-svg {
+  background: transparent !important;
+}
+
+.js-plotly-plot .plot-container {
+  background: white !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(99, 179, 237, 0.1) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2) !important;
+  padding: 16px !important;
+}
+
+.js-plotly-plot .modebar {
+  background: transparent !important;
+}
+
+.js-plotly-plot .modebar-btn path {
+  fill: #4299e1 !important;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+  gap: 24px;
+  padding: 0px 24px;
+  background: rgba(26, 32, 44, 0.7) !important;
+  border-radius: 12px;
+  backdrop-filter: blur(10px) !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+  height: 50px;
+  background: transparent !important;
+  border: none !important;
+  color: #a0aec0 !important;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 5px;
+  transition: all 0.3s ease;
+}
+
+.stTabs [aria-selected="true"] {
+  color: #4299e1 !important;
+  border-bottom: 3px solid #4299e1 !important;
+  text-shadow: 0 0 10px rgba(99, 179, 237, 0.3) !important;
+}
+
+/* Main content and background fixes */
+[data-testid="stAppViewContainer"],
+[data-testid="stHeader"],
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"],
+div[data-layout="wide"] {
+  background: linear-gradient(135deg, #0a1628 0%, #1a2b43 100%) !important;
+}
+
+main[data-testid="main"] {
+  background: transparent !important;
+}
+
+[data-testid="stHeader"] {
+  background: rgba(26, 32, 44, 0.7) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* Override any white backgrounds */
+div.stApp > div,
+div.stApp > section {
+  background: transparent !important;
+}
+
+.main > .block-container {
+  background: transparent !important;
+}
+
+.stApp > header {
+  background: transparent !important;
+}
+
+div[data-testid="stToolbar"] {
+  background: transparent !important;
+}
+
+div[data-testid="stDecoration"] {
+  background: transparent !important;
+}
+
+div[data-testid="stStatusWidget"] {
+  background: transparent !important;
+}
+
+.element-container,
+div.row-widget.stRadio > div {
+  background: transparent !important;
+}
+
+/* Ensure plots and other elements have transparent background */
+div.stPlotlyChart,
+div[data-testid="column"] {
+  background: transparent !important;
+}
+
+/* Target any potential white backgrounds */
+div[class*="css"] {
+  background: transparent !important;
+}
