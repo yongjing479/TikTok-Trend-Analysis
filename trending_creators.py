@@ -28,7 +28,7 @@ def show_trending_creators():
                 labels={'follower_cnt': 'Followers', 'liked_cnt': 'Likes'},
                 title='Followers vs Likes Distribution',
                 color='follower_cnt',
-                color_continuous_scale='Blues',
+                color_continuous_scale='rdbu',
                 hover_data=['nick_name']
             )
             fig_scatter.update_traces(marker=dict(size=10, opacity=0.7))
